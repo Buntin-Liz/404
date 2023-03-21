@@ -1,7 +1,9 @@
-#mac {
+#macchan {
     width: 30%;
+    border: 1px solid #000000;
 }
 
 .main_content {
     text-align: center;
+    font-family: 'IBM Plex Sans JP', sans-serif;
 }
