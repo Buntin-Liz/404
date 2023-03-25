@@ -1,5 +1,11 @@
 # My 404 page
 
+# TODO
+
+-   init.rs を完成させる
+-   404 ページのデザインを考える
+-   config.json を読み込んでいい感じにする
+
 ## Setup
 
 1. run `npm install`
