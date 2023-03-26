@@ -1,6 +1,8 @@
-import React from 'react';
+import React from 'react'
 //import css
-import './App.css';
+import './App.css'
+//import components
+import AboutSystem from './AboutSystem'
 
 const App: React.FC = () => {
     return (
@@ -8,10 +10,9 @@ const App: React.FC = () => {
             <h1>This is 404.</h1>
             <p>Something went wrong.</p>
             <br />
-            <p>
-                We dare not redirect the server so that we can check for server
-                anomalies.
-            </p>
+            <AboutSystem />
+            <br />
+            <p>We dare not redirect the server so that we can check for server anomalies.</p>
             <a href="https://buntin.tech">Here</a> is a link to the home page.
             <img
                 id="macchan"
@@ -19,7 +20,7 @@ const App: React.FC = () => {
                 alt="404"
             />
         </div>
-    );
-};
+    )
+}
 
-export default App;
+export default App

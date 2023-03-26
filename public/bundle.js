@@ -180,13 +180,23 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
 
 /***/ }),
 
+/***/ "./src/components/AboutSystem.tsx":
+/*!****************************************!*\
+  !*** ./src/components/AboutSystem.tsx ***!
+  \****************************************/
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n\nconst AboutSystem = () => {\n    //\n    return (\n    /* return sample */\n    react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"p\", null, \" text \"));\n};\n/* harmony default export */ __webpack_exports__[\"default\"] = (AboutSystem);\n\n\n//# sourceURL=webpack://404/./src/components/AboutSystem.tsx?");
+
+/***/ }),
+
 /***/ "./src/components/App.tsx":
 /*!********************************!*\
   !*** ./src/components/App.tsx ***!
   \********************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _App_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./App.css */ \"./src/components/App.css\");\n\n//import css\n\nconst App = () => {\n    return (react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", { className: \"main_content\" },\n        react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"h1\", null, \"This is 404.\"),\n        react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"p\", null, \"Something went wrong.\"),\n        react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"br\", null),\n        react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"p\", null, \"We dare not redirect the server so that we can check for server anomalies.\"),\n        react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"a\", { href: \"https://buntin.tech\" }, \"Here\"),\n        \" is a link to the home page.\",\n        react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"img\", { id: \"macchan\", src: \"https://cdn.discordapp.com/attachments/1068315061099175966/1075153191609581589/image.png\", alt: \"404\" })));\n};\n/* harmony default export */ __webpack_exports__[\"default\"] = (App);\n\n\n//# sourceURL=webpack://404/./src/components/App.tsx?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _App_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./App.css */ \"./src/components/App.css\");\n/* harmony import */ var _AboutSystem__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./AboutSystem */ \"./src/components/AboutSystem.tsx\");\n\n//import css\n\n//import components\n\nconst App = () => {\n    return (react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", { className: \"main_content\" },\n        react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"h1\", null, \"This is 404.\"),\n        react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"p\", null, \"Something went wrong.\"),\n        react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"br\", null),\n        react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_AboutSystem__WEBPACK_IMPORTED_MODULE_2__[\"default\"], null),\n        react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"br\", null),\n        react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"p\", null, \"We dare not redirect the server so that we can check for server anomalies.\"),\n        react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"a\", { href: \"https://buntin.tech\" }, \"Here\"),\n        \" is a link to the home page.\",\n        react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"img\", { id: \"macchan\", src: \"https://cdn.discordapp.com/attachments/1068315061099175966/1075153191609581589/image.png\", alt: \"404\" })));\n};\n/* harmony default export */ __webpack_exports__[\"default\"] = (App);\n\n\n//# sourceURL=webpack://404/./src/components/App.tsx?");
 
 /***/ }),
 
